@@ -10,8 +10,9 @@ A self-hosted, GPU-accelerated local LLM inference pipeline using Docker and an 
 openai_inference_api_project/
 ├── app/
 │   ├── client.py            # Python OpenAI SDK client (Summarization, Translation, Extraction)
-│   └── docker-compose.yml   # Container orchestration for GPU-accelerated local LLM
-├── .env.example             # Environment configuration template
+│
+├── .env           # Environment configuration template
+└── docker-compose.yml   # Container orchestration for GPU-accelerated local LLM
 ├── .gitignore               # Git ignore rules for virtual environments, outputs, and caches
 ├── requirements.txt         # Python package dependencies (openai>=1.40.0)
 └── README.md                # Project documentation
